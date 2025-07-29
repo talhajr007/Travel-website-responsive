@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+/* default style */
+* {
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 5rem auto;
+    border-radius: 1rem;
+}
+
+h3 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 800;
+    line-height: normal;
+}
+
+p, li {
+    font-size: 18px;
+    text-decoration: none;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+.text-color {
+    color: rgb(255, 84, 0);
+}
+
+.gray-color {
+    color: rgb(66, 66, 71);
+}
+
+/* Navbar */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 280px;
+}
+
+.logo img {
+    width: 48px;
+    height: 56px;
+    margin-right: 0.5rem;
+}
+
+.nav-options {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+
+.nav-options > li {
+    list-style: none;
+}
+
+.nav-options > li > a {
+    font-size: 18px;
+    text-decoration: none;
+    font-style: normal;
+    line-height: normal;
+    cursor: pointer;
+}
+
+/* banner */
+.explore-your-travel {
+    padding: 7rem 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+}
+
+.explore-container h3 {
+    color: white;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.explore-container p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 26px;
+    width: 676px;
+    padding: 1.5rem 0;
+    margin: auto;
+}
+
+.travel-input {
+    margin-top: 2rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    backdrop-filter: blur(4px);
+}
+
+input, select {
+    width: 175px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin: 0 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-primary {
+    width: 175px;
+    height: 50px;
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 0.7rem 1.2rem;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 84, 0);
+}
