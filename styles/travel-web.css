@@ -291,6 +291,38 @@ input, select {
 }
 
 /* Deals & Discounts */
+.place-background {
+    width: 100%;
+    height: 500px;
+    background-image: url("../Images/Group\ 39.png");
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.place-background-2 {
+    width: 100%;
+    height: 500px;
+    background-image: url("../Images/Group\ 40.png");
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.place-background-3 {
+    width: 100%;
+    height: 500px;
+    background-image: url("../Images/Group\ 39.png");
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.deals-discount {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
 .deals-discount > div > h3{
     color: rgb(19, 19, 24);
     font-size: 40px;
@@ -305,6 +337,194 @@ input, select {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+}
+.tour-booking {
+    margin: 55px 55px 55px 63%;
+    width: 579px;
+    height: 389px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);   
+}
+.tour-booking-2 {
+    margin: 55px 55px 55px 55px;
+    width: 579px;
+    height: 389px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);   
+}
+.tour-booking-3 {
+    margin: 55px 55px 55px 63%;
+    width: 579px;
+    height: 389px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);   
+}
+.tour-booking > ul {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+.tour-booking-2 > ul {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+.tour-booking-3 > ul {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+.tour-booking > ul> li {
+    color: rgb(90, 90, 93);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    list-style: none;
+}
+.tour-booking-2 > ul> li {
+    color: rgb(90, 90, 93);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    list-style: none;
+}
+.tour-booking-3 > ul> li {
+    color: rgb(90, 90, 93);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    list-style: none;
+}
+.tour-booking > ul> li i {
+    color:  rgb(255, 84, 0);
+}
+.tour-booking-2 > ul> li i {
+    color:  rgb(255, 84, 0);
+}
+.tour-booking-3 > ul> li i {
+    color:  rgb(255, 84, 0);
+}
+
+.tour-to-satorini {
+    display: flex;
+    flex-direction: column;
+    height: 241px;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+.tour-to-satorini-2 {
+    display: flex;
+    flex-direction: column;
+    height: 241px;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+.tour-to-satorini-3 {
+    display: flex;
+    flex-direction: column;
+    height: 241px;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+.tour-to-satorini h4 {
+    color: rgb(19, 19, 24);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.tour-to-satorini-2 h4 {
+    color: rgb(19, 19, 24);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.tour-to-satorini-3 h4 {
+    color: rgb(19, 19, 24);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.tour-to-satorini p{
+    width: 452px;
+    height: 78px;
+    margin-bottom: 16px;
+    color: rgb(90, 90, 93);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+.tour-to-satorini-2 p{
+    width: 452px;
+    height: 78px;
+    margin-bottom: 16px;
+    color: rgb(90, 90, 93);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+.tour-to-satorini-3 p{
+    width: 452px;
+    height: 78px;
+    margin-bottom: 16px;
+    color: rgb(90, 90, 93);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+.tour-to-satorini span {
+    color: rgb(255, 84, 0);
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.tour-to-satorini-2 span {
+    color: rgb(255, 84, 0);
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.tour-to-satorini-3 span {
+    color: rgb(255, 84, 0);
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.btn {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+    text-align: left;
+}
+.btn-2 {
+    margin: 10px auto;
 }
 /* footer section */
 .footer-section {
