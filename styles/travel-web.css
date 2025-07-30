@@ -221,3 +221,114 @@ input, select {
     font-weight: bold;
     transform: translate(-50%, -50%);
 }
+
+/* why choose us section */
+.why-choose-us > div > h3 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    color: rgb(19, 19, 24);
+}
+.why-choose-us > div > p {
+    width: 673px;
+    height: 52px;
+    margin: 24px auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(19, 19, 24, 0.7);
+}
+.card-box {
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.card-1, .card-2, .card-3 {
+    width: 790px;
+    height: 284px;
+    padding: 32px 55px 32px 46px;
+}
+.card-box .card-1{
+    box-sizing: border-box;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+}
+.card-box .card-2 {
+    box-sizing: border-box;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+}
+.card-3 {
+    margin: 30px auto;
+    box-sizing: border-box;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    border-radius: 16px;
+    background: rgba(233, 68, 68, 0.05);
+}
+.card-1 img, .card-2 img, .card-3 img {
+    margin-bottom: 20px;
+
+}
+.card-1 h4, .card-2 h4, .card-3 h4 {
+    margin-bottom: 20px;
+    color: rgb(19, 19, 24);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+} 
+.card-1 p, .card-2 p, .card-3 p {
+    width: 550px;
+    text-align: left;
+    color: rgb(90, 90, 93);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Deals & Discounts */
+.deals-discount > div > h3{
+    color: rgb(19, 19, 24);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+}
+.deals-discount > div > p{
+    width: 663px;
+    height: 52px;
+    margin: 24px auto;
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+/* footer section */
+.footer-section {
+    background: rgba(19, 19, 24, 0.05);
+    padding: 2rem 0;
+}
+
+.footer-section .logo {
+    margin: 2rem auto;
+}
+
+.social {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+}
+
+.social i {
+    height: 44px;
+    font-size: 23px;
+}
+
+.footer-section hr {
+    margin: 2rem auto;
+}
