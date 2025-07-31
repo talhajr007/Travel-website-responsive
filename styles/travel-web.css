@@ -9,6 +9,10 @@ body {
     margin: 0;
 }
 
+.ham-burger {
+    display: none;
+}
+
 .container {
     width: 90%;
     margin: 5rem auto;
@@ -142,12 +146,20 @@ input, select {
 
 /* popular section */
 .popular-section {
-    /* display: grid;
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 3rem; */
-    display: flex;
-    justify-content: space-between;
     gap: 3rem;
+
+}
+
+.popular-section img {
+    width: 100%;
+    height: 100%;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
 }
 
 .text-container {
@@ -173,8 +185,6 @@ input, select {
 
 /* your destination */
 .your-destination > h3 {
-    width: 490px;
-    height: 50px;
     color: rgb(19, 19, 24);
     font-size: 40px;
     font-weight: 800;
@@ -182,8 +192,6 @@ input, select {
     margin: auto;
 }
 .your-destination > p {
-    width: 643px;
-    height: 52px;
     color: rgba(19, 19, 24, 0.7);
     font-size: 16px;
     font-weight: 400;
@@ -213,6 +221,7 @@ input, select {
     position: relative;
 }
 .country {
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -230,8 +239,6 @@ input, select {
     color: rgb(19, 19, 24);
 }
 .why-choose-us > div > p {
-    width: 673px;
-    height: 52px;
     margin: 24px auto;
     font-size: 16px;
     font-weight: 400;
@@ -246,9 +253,14 @@ input, select {
     gap: 30px;
     margin-top: 50px;
 }
-.card-1, .card-2, .card-3 {
-    width: 790px;
-    height: 284px;
+.card-1, .card-2 {
+    width: 100%;
+    height: 100%;
+    padding: 32px 55px 32px 46px;
+}
+.card-3 {
+    width: 50%;
+    height: 100%;
     padding: 32px 55px 32px 46px;
 }
 .card-box .card-1{
@@ -282,7 +294,7 @@ input, select {
     line-height: 30px;
 } 
 .card-1 p, .card-2 p, .card-3 p {
-    width: 550px;
+    width: 100%;
     text-align: left;
     color: rgb(90, 90, 93);
     font-size: 16px;
@@ -526,6 +538,118 @@ input, select {
 .btn-2 {
     margin: 10px auto;
 }
+
+/* A Simple Perfect Place To Get Lost */
+.simple-place{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.text-part {
+    width: 532px;
+    height: 424px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.text-part h3 {
+    color: rgb(19, 19, 24);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    text-align: left;
+}
+.text-part p {
+   color: rgb(90, 90, 93);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+.text-part ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.text-part ul li {
+    color: rgb(19, 19, 24);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+}
+.text-part button {
+    margin-top: 26px;
+}
+.image-part {
+    width: 610px;
+    height: 424px;
+    position: relative;
+}
+.image-part p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+}
+/* Nwesletter */
+.newsletter {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.input-part {
+    width: 474px;
+    height: 422px;
+    border: 1px solid  rgb(255, 84, 0);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.input-part h4 {
+    color: rgb(19, 19, 24);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+    text-align: left;
+}
+.input-part p {
+    color: rgb(90, 90, 93);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+.input-part hr {
+    width: 393px;
+    border: 1px solid rgba(19, 19, 24, 0.1);
+}
+.input-part input {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    margin: 16px 0;
+    background: rgba(19, 19, 24, 0.05);
+}
+.btn-3 {
+    width: 393px;
+    height: 52px;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+    text-align: center;
+}
 /* footer section */
 .footer-section {
     background: rgba(19, 19, 24, 0.05);
@@ -551,4 +675,67 @@ input, select {
 
 .footer-section hr {
     margin: 2rem auto;
+}
+
+/* responsive design*/
+@media screen and (max-width: 600px) {
+    .nav-options {
+        display: none;
+    }
+    .ham-burger {
+    display: block;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    .ham-burger {
+        font-size: 25px;
+    }
+    .container {
+    margin: 3rem auto;
+    }
+    p {
+        font-size: 16px;
+    }
+    .explore-container h3 {
+        font-size: 26px;
+    }
+    .explore-container p {
+        width: 60%;
+    }
+    .travel-input {
+        flex-direction: column;
+        width: 70%;
+        margin: auto;
+    }
+    .travel-input input,
+    .travel-input select,
+    .travel-input button {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .popular-section {
+        grid-template-columns: 1fr;
+    }
+    .popular-section, 
+    .row-1,
+    .row-2,
+    .row-3 {
+        grid-template-columns: 1fr;
+    }
+    .your-destination > h3 {
+        font-size: 26px;
+    }
+    .why-choose-us > div > h3 {
+        font-size: 26px;
+    }
+    .card-box {
+    flex-direction:column ;
+    }
+    .card-1, .card-2, .card-3 {
+    width: 100%;
+    height: 100%;
+    padding: 32px 55px 32px 46px;
+    }
+
 }
