@@ -200,7 +200,7 @@ input, select {
 }
 .your-destination  img {
     width: 100%;
-    height: 450px;
+    height: 400px;
     filter: brightness(70%);
 }
 .row-1,
@@ -212,7 +212,7 @@ input, select {
     gap: 1rem;
 }
 .row-2 {
-    grid-template-columns: 0.8fr 1.5fr 0.7fr;
+    grid-template-columns: 1fr 1.2fr 1fr;
 }
 .row-3 {
     grid-template-columns: 0.75fr 1.25fr;
@@ -304,32 +304,24 @@ input, select {
 
 /* Deals & Discounts */
 .place-background {
-    width: 100%;
-    height: 500px;
     background-image: url("../Images/Group\ 39.png");
-    border-radius: 16px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
-.place-background-2 {
-    width: 100%;
-    height: 500px;
+.place-background-2, .place-background-3  {
     background-image: url("../Images/Group\ 40.png");
-    border-radius: 16px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 .place-background-3 {
+    background-image: url("../Images/Group\ 39.png");
+}
+
+.place-background, .place-background-2, .place-background-3 {
     width: 100%;
     height: 500px;
-    background-image: url("../Images/Group\ 39.png");
     border-radius: 16px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
 .deals-discount {
     display: flex;
     flex-direction: column;
@@ -348,55 +340,45 @@ input, select {
     font-weight: 400;
     line-height: 26px;
 }
-.tour-booking {
-    margin: 55px 55px 55px 63%;
-    width: 579px;
+.tour-booking, .tour-booking-2, .tour-booking-3 {
+    width: 39%;
     height: 389px;
     box-sizing: border-box;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 16px;
     backdrop-filter: blur(5px);
     background: rgba(255, 255, 255, 0.8);   
+}
+
+.tour-booking {
+    margin: 55px 55px 55px 58%;
 }
 .tour-booking-2 {
-    margin: 55px 55px 55px 55px;
-    width: 579px;
-    height: 389px;
-    box-sizing: border-box;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 16px;
-    backdrop-filter: blur(5px);
-    background: rgba(255, 255, 255, 0.8);   
+    margin: 55px 55px 55px 3.4%;
 }
 .tour-booking-3 {
-    margin: 55px 55px 55px 63%;
-    width: 579px;
-    height: 389px;
-    box-sizing: border-box;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 16px;
-    backdrop-filter: blur(5px);
-    background: rgba(255,  255, 255, 0.8);   
+    margin: 55px 55px 55px 58%;
 }
+
 .tour-booking > div, 
 .tour-booking-2 > div,
 .tour-booking-3 > div  {
     display: flex;
     gap: 24px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .tour-booking > div > span, 
 .tour-booking-2 > div > span, 
 .tour-booking-3 > div > span  {
     display: flex;
-    gap: 24px;  
+    gap: 5px;  
 }
 
 .tour-booking > div > .p, span > p, 
 .tour-booking-2 > div > .p, span > p, 
 .tour-booking-3 > div > .p, span > p  {
     color: rgb(90, 90, 93);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 20px;
     text-align: left;
@@ -429,26 +411,25 @@ input, select {
     flex-direction: column;
     height: 241px;
     padding-left: 50px;
-    margin-top: 20px;
 }
 .tour-to-satorini h4, 
 .tour-to-satorini-2 h4,
 .tour-to-satorini-3 h4 {
     color: rgb(19, 19, 24);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 800;
     line-height: 30px;
     text-align: left;
-    margin-top: -20px;
+    margin-top: -15px;
 }
 
 .tour-to-satorini .big-screen, 
 .tour-to-satorini-2 .big-screen, 
 .tour-to-satorini-3 .big-screen {
     color: rgb(90, 90, 93);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 1.43rem;
     text-align: left;
 }
 
@@ -457,17 +438,17 @@ input, select {
 .tour-to-satorini-3 .price {
     margin: 0;
     color: rgb(255, 84, 0);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 800;
-    line-height: 25px;
+    line-height: 1.56rem;
     text-align: left;
 }
 
 .btn {
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 800;
-    line-height: 25px;
+    line-height: 1.56rem;
     text-align: left;
 }
 .btn-2 {
@@ -477,54 +458,67 @@ input, select {
 /* A Simple Perfect Place To Get Lost */
 .simple-place{
     display: flex;
-    gap: 100px;
+    gap: 20px;
     justify-content: center;
     align-items: center;
 }
 .text-part {
-    width: 532px;
+    width: 50%;
     height: 424px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 }
 .text-part h3 {
+    width: 100%;
+    height: 25%;
     color: rgb(19, 19, 24);
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 800;
-    line-height: 60px;
+    line-height: 45px;
     text-align: left;
 }
 .text-part p {
-   color: rgb(90, 90, 93);
-    font-size: 16px;
+    width: 100%;
+    height: 15%;
+    color: rgb(90, 90, 93);
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 23px;
     text-align: left;
 }
 .text-part ul {
+    width: 90%;
+    height: 20%;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 .text-part ul li {
+    width: 100%;
     color: rgb(19, 19, 24);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
-    line-height: 26px;
+    line-height: 23px;
     text-align: left;
 }
 .text-part button {
-    margin-top: 26px;
+    margin-top: 35px;
 }
 .image-part {
-    width: 610px;
+    width: 50%;
     height: 424px;
     position: relative;
 }
+.image-part img {
+    width: 100%;
+    height: 100%;
+}
 .image-part p {
+    width: 50%;
+    height: 50%;
     position: absolute;
-    top: 50%;
+    top: 65%;
     left: 50%;
     color: white;
     font-size: 28px;
@@ -534,7 +528,7 @@ input, select {
 /* Nwesletter */
 .newsletter {
     display: flex;
-    gap: 80px;
+    gap: 20px;
     justify-content: center;
     align-items: center;
 }
@@ -546,7 +540,6 @@ input, select {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 50px;
 }
 .input-part h4 {
     color: rgb(19, 19, 24);
@@ -554,31 +547,36 @@ input, select {
     font-weight: 800;
     line-height: 30px;
     text-align: left;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
 }
 .input-part p {
-    width: 50%;
+    width: 80%;
     color: rgb(90, 90, 93);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     text-align: left;
     margin: 5px 0;
+    margin-left: 30px;
 }
 .input-part hr {
-    width: 610px;
-    margin: 16px 0;
+    width: 80%;
+    margin: 12px 0;
+    margin-left: 25px;
     border: 1px solid rgba(19, 19, 24, 0.1);
 }
 .input-part input {
-    width: 593px;
+    width: 80%;
     height: 52px;
-    margin: 16px 0;
+    margin: 13px 0;
+    margin-left: 30px;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
 }
 .btn-3 {
-    width: 610px;
+    width: 82%;
     height: 52px;
     color: rgb(255, 255, 255);
     border-radius: 8px;
@@ -588,11 +586,13 @@ input, select {
     line-height: 25px;
     text-align: center;
     margin: 10px 0;
+    margin-left: 33px;
 }
 
 .img-part {
     width: 45%;
     height: 422px;
+    position: relative;
 }
 .img-part img {
     width: 100%;
@@ -604,26 +604,26 @@ input, select {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-    bottom: 42%;
-    left: 62%;
+    position: absolute;
+    bottom: 12%;
+    left: 61%;
     border-radius: 16px;
     background: rgb(255, 84, 0);
     width: 36%;
     height: 30%;
-    transform: rotate(-19.63deg);
+    transform: rotate(-20deg);
 }
 .travel h2 {
     color: rgb(255, 255, 255);
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 800;
     line-height: 40px;
-    text-align: left;
+    text-align: center;
 }
 
 .travel span {
     color: rgb(255, 255, 255);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     line-height: 30px;
     text-align: center;
